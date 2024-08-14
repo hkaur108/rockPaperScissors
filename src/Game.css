@@ -1,0 +1,28 @@
+body{
+    background-image: url(/public/images/gameback.jpeg); 
+    z-index:-1; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+:root{
+    --mainColor:#021526
+}
+
+
+.containerBackground{ 
+    width:50vw;
+    height:90vh;
+    padding:1rem;
+    z-index: 2;
+    background-color:#fff;
+    margin:50px 50px 50px 50px;
+    
+   
+}
+
+.textColor{
+    color: var(--mainColor)!important;
+
+}
