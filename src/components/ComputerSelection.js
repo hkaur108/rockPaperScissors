@@ -9,7 +9,7 @@ export default function ComputerSelection() {
     <div className="container">
     <div className="row">
       <div className='col mx-auto m-1 m-2 p-2'>
-      <h3 className='text-center text-capitalize textColor'>{computersChoice}</h3>
+      <h3 className='text-center text-capitalize  text-secondary'>{computersChoice}</h3>
     </div>
     </div>
     

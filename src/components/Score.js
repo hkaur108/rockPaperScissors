@@ -13,15 +13,15 @@ export default function Score() {
    const location=useLocation();
   const name=location.state;
 
-
 useEffect(()=>{
   if(!winner){
     return 
   }
   else{
-    let getWinner= winner.split(" ")[0]
+    let getWinner= winner.split(" ")[0];
+
     const updateScores = (winner)=>{
-  if(winner==="player"){
+  if(winner===name.name){
     return setplayerScore(playerScore=>playerScore+1)
   }
   else if(winner==="computer"){

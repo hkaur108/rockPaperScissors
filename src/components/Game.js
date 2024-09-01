@@ -78,8 +78,10 @@ export default function Game() {
             {(startGame) && (<Restart/>)} 
             </Context.Provider>
           </div>
-          <div className="col-6">
-              <button className='btn btn-outline-success' onClick={exitGame}>Exit</button>
+        </div>
+        <div className="row">
+          <div className="col d-flex align-items-center justify-content-center">
+            <button className='btn btn-secondary' onClick={exitGame}>Exit</button>
           </div>
         </div>
       </div>

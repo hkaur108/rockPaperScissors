@@ -41,12 +41,13 @@ export default function Home() {
                     type="text" placeholder='enter your name:' 
                     value={name} 
                     onChange={(e)=>setname(e.target.value)} 
+                    autoComplete='off'
                     name='name' 
                     id='name'
-                    width={"180px"}
+                    width={"200px"}
                     required
                     maxLength={25}
-                    pattern="[A-Za-z\s]+" 
+                    pattern="[A-Za-z]+" 
                     title="Name should only contain letters and spaces."/><br/>
                     {(name) && (<button type ="submit" onClick={handleClick} className='btn btn-outline-light btn-block'>Start Game!</button>)} 
                 </form>

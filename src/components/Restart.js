@@ -18,7 +18,7 @@ export default function Restart() {
     <div className='container'>
       <div className="row ">
         <div className="col d-flex justify-content-center">
-            <button onClick={handleClick} className='btn btn-outline-primary btn-block'>Play Again</button>
+            <button onClick={handleClick} className='btn btn-secondary btn-block'>Play Again</button>
         </div>
       </div>
     </div>

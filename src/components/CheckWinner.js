@@ -53,7 +53,7 @@ winnerLogic(playersChoice,computersChoice);
     <div className='container'>
       <div className="row">
         <div className="col">
-          <h3 className='text-primary text-capitalize text-center'> {(winner==="player")?(winner=name.name) +" Won!":(winner)}</h3>
+          <h3 className='text-secondary fw-bold text-capitalize text-center'> {(winner==="player")?(winner=name.name) +" Won!":(winner)}</h3>
         </div>
       </div>
     </div>
